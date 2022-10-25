@@ -30,6 +30,6 @@ export class UserDetailComponent implements OnInit {
    * @returns {void}
    */
   onDelete(user: User): void {
-    this.delUser.emit();
+    this.delUser.emit(user);
   }
 }
